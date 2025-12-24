@@ -23,7 +23,9 @@ button{
     border: none;
     font-weight: bold;
     font-size: 16px;
-    padding: 12px 36px;
+    padding: 12px ;
+    height: 50px;
+    width: 200px;
 }
 .animated-button:hover {
   background-color: #2d29b7;; /* New background color on hover */
@@ -60,9 +62,10 @@ nav{
 .action{
  display: flex;
  align-items: center;
- gap: 220px;
+  gap: 250px;
+ margin: 100px 325px 100px 325px;
  justify-content: space-between;
- margin: 150px 200px 130px 200px;
+;
 }
 .title{
 font-size: 42px;
@@ -124,17 +127,17 @@ margin-bottom: 0px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
     border-radius: 15px;
 } 
-h2{
+.h2{
     text-align: center;
     font-size: 42px; 
     font-weight: 700;
     color: #252432;
 }
-h3{
+.h3{
      font-size: 20px;
      font-weight: 700;
 }
-p{
+.p{
     font-size: 15px;
     font-weight:400 ;
     color: #252432;
@@ -144,11 +147,103 @@ p{
     align-items: center;
     gap: 15px;
 }
-h4{
+.h4{
     margin: 0;
     color: rgb(56, 54, 54);
+    font-weight: 500;
 }
 span{
     color: gray;
     font-weight: 500;
+}
+/*focus better*/
+.focus-area{
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+     border-radius: 15px;
+     margin: 100px 325px 100px 325px;
+}
+.focus{
+    padding-top: 70px;
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: 700;
+    
+}
+.focus-title{
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(81, 81, 81);
+}
+.focus-image{
+ border-radius: 50px;
+ margin-top: 20px;
+ margin-bottom: 70px;
+}
+/*touch section*/
+.touch-area{
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    gap: 250px;
+    margin: 100px 325px 100px 325px; 
+}
+form{
+    display: block;
+    margin-bottom: 20px;
+}
+.touch-title{
+    font-size: 97px;
+    font-weight: bold;
+
+}
+.touch-subtitle{
+    font-size: 20px;
+    font-weight: 500;
+}
+input, textarea{
+    color: rgb(150, 148, 148);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    width: 100%; 
+    padding: 20px; 
+    border: 1px solid #ccc; 
+    border-radius: 10px;
+    font-size: 20px;
+}
+.last{
+    width: 100%;
+    padding: 20px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+/*footer section*/
+.footer{
+    text-align: center;
+    align-items: center;
+}
+.title4{
+    font-size: 100px;
+    font-weight: 900;
+    color: #4E47FF;
+    margin-bottom: 8px;
+}
+.subtitle4{
+    font-size:20px;
+    color: #8987A1;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+ul{
+  display: flex;
+    align-items: center;
+    margin-left: 700px;
+    margin-bottom: 100px;
+}
+li{
+    color: #8987A1;
+    font-weight: 500;
+    font-size: 20px;
+    list-style: none;
+    margin-right: 50px;
 }
