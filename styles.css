@@ -5,6 +5,11 @@
   font-weight: 100;
   font-style: normal;
 }
+
+body {
+  background-color: #f6f8fc;
+}
+
 .header{
     background-image: url('./images/Hero-bg.png'); 
     background-size: cover;   
@@ -63,13 +68,14 @@ nav{
 font-size: 42px;
 font-weight: bold;
 color: #252432;
+margin-top: 0%;
 margin-bottom: 23px;
 }
 .subtitle{
 font-size: 24px;
 font-weight: 400;
-color: #252432;
-margin-bottom: 23px;
+color: rgba(0, 0, 0, 0.5);
+margin-bottom: 50px;
 }
 .image{
     border-radius: 48px;
@@ -78,15 +84,15 @@ margin-bottom: 23px;
 .background{
 background-color: rgba(78, 71, 255, 0.1);
 border-radius: 24px;
-margin: 100px auto;
+margin: 300px;
 }
 .headline{
-    padding-top: 50px ;
+   padding-top: 50px ;
     margin-bottom: 10px;
     font-size: 42px;
 font-weight: bold;
 color: #252432;
-text-align: center;
+text-align: center;;
 }
 .users{
     display: flex;
@@ -99,4 +105,50 @@ color: #4E47FF;
 font-size: 80px;
 font-weight: 700;
 margin-bottom: 0px;
+}
+
+/*feedback section*/
+.comments{
+    text-align: center;
+    margin: 100px auto;
+}
+.card-container{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    padding: 50px;
+    text-align: left;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 15px;
+} 
+h2{
+    text-align: center;
+    font-size: 42px; 
+    font-weight: 700;
+    color: #252432;
+}
+h3{
+     font-size: 20px;
+     font-weight: 700;
+}
+p{
+    font-size: 15px;
+    font-weight:400 ;
+    color: #252432;
+}
+.reviewer{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+h4{
+    margin: 0;
+    color: rgb(56, 54, 54);
+}
+span{
+    color: gray;
+    font-weight: 500;
 }
