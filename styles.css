@@ -234,16 +234,3 @@ input, textarea{
     font-weight: 500;
     margin-bottom: 30px;
 }
-ul{
-  display: flex;
-    align-items: center;
-    margin-left: 700px;
-    margin-bottom: 100px;
-}
-li{
-    color: #8987A1;
-    font-weight: 500;
-    font-size: 20px;
-    list-style: none;
-    margin-right: 50px;
-}
