@@ -38,6 +38,9 @@ button{
 }
 
 /*header*/
+header{
+    height: 90vh;
+}
 nav{
     display: flex;
     align-items: center;
